@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!-- Error 1-Root element name is wrong -->
+<!-- Should be <NationalParks> but we have <NationalPark> -->
+<NationalPark>
+
+	<!-- Park #1 Grand Canyon | Error 4 - An Address element has no closing tag-->
+	
+	<NationalPark Rating="4.9">
+		<Name>Grand Canyon National Park</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<!-- Error4 -An Address element has no closing tag -->
+		<Address NearestAirport="Flagstaff Pulliam Airport">
+			<Number>450</Number>
+			<Street>State Route 64</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+			<!-- MISSING </Address> tag left open/never closed -->
+		</NationalPark>
+
+	<!-- Park 2 Petrified Forest - errors 2 and 3  -->
+	<!-- Error 2: A required attribute is missing   -->
+	<!-- Error 3: A Phone element is missing on one of the national parks.  -->
+	<NationalPark>
+		<Name>Petrified Forest National Park</Name>
+		<!-- Error 2: Phone element MISSING   -->
+		<!-- Error 3: MISSING NearestAirport attribute -->
+		<Address>
+			<Number>1</Number>
+			<Street>Park Road</Street>
+			<City>Holbrook</City>
+			<State>AZ</State>
+			<Zip>86025</Zip>
+		</Address>
+	</NationalPark>
+
+	
+	<!-- PARK 3: Saguaro - Error 5  -->
+	<!-- Error 5: Two names are provided for one of the national parks -->
+	<NationalPark>
+		<!-- Error 5: Two names are provided for one of the national parks -->
+		<Name>Saguaro National Park</Name>
+		<Name>Saguaro NP</Name>
+		<Phone>520-733-5153</Phone>
+		<Phone>520-733-5158</Phone>
+		<Address NearestAirport="Tucson International Airport">
+			<Number>3693</Number>
+			<Street>S. Old Spanish Trail</Street>
+			<City>Tucson</City>
+			<State>AZ</State>
+			<Zip>85730</Zip>
+		</Address>
+	</NationalPark>
+
+</NationalPark>
