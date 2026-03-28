@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NationalParks  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
+<NationalParks   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://rubyg22.github.io/CSE445_HW4/NationalParks.xsd">
 	<!-- Park #1 Grand Canyon -->
 	<NationalPark Rating="5">
 		<Name>Grand Canyon National Park</Name>
@@ -138,5 +138,4 @@
 	</NationalPark>
 
 </NationalParks>
-
 
