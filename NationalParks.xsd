@@ -3,7 +3,8 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            targetNamespace="https://rubyg22.github.io/CSE445_HW4"
            xmlns="https://rubyg22.github.io/CSE445_HW4"
-           elementFormDefault="qualified">
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
 
 	<xs:element name="NationalParks">
 		<xs:complexType>

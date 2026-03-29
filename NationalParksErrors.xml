@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- Error 1: Root element name is wrong - should be NationalParks, not NationalPark -->
-<NationalParks xmlns="https://rubyg22.github.io/CSE445_HW4"
+<NationalPark xmlns="https://rubyg22.github.io/CSE445_HW4"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:schemaLocation="https://rubyg22.github.io/CSE445_HW4 NationalParks.xsd">
 
@@ -48,6 +48,6 @@
 			<State>AZ</State>
 			<Zip>86023</Zip>
 			<!-- </Address> intentionally missing -->
-		</NationalPark>
+	</NationalPark>
 
-</NationalParks>
+</NationalPark>

@@ -4,21 +4,36 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:schemaLocation="https://rubyg22.github.io/CSE445_HW4 NationalParks.xsd">
 
-	<!-- Park #1 Grand Canyon -->
-	<NationalPark Rating="5">
+	<!-- Park in Diagram Grand Canyon -->
+	<NationalPark Rating="4.9">
 		<Name>Grand Canyon National Park</Name>
 		<Phone>928-638-7888</Phone>
 		<Phone>888-297-2757</Phone>
 		<Phone>928-638-7875</Phone>
 		<Phone>800-843-8724</Phone>
 		<Phone>888-868-9378</Phone>
-		
+
 		<Address NearestAirport="Flagstaff Pulliam Airport">
 			<Number>450</Number>
 			<Street>State Route 64</Street>
 			<City>Grand Canyon</City>
 			<State>AZ</State>
 			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+	
+	<!-- Park #1 Indiana Dunes -->
+	<NationalPark Rating="4.2">
+		<Name>Indiana Dunes</Name>
+		<Phone>219-395-1882</Phone>
+		
+		
+		<Address NearestAirport="Gary International Airport">
+			<Number>1215</Number>
+			<Street> N. State Road 49</Street>
+			<City>Porter</City>
+			<State>IN</State>
+			<Zip>46304</Zip>
 		</Address>
 	</NationalPark>
 
