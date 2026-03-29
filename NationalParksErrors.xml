@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- Error 1: Root element name is wrong - should be NationalParks, not NationalPark -->
-<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="https://rubyg22.github.io/CSE445_HW4/NationalParks.xsd">
+<NationalParks xmlns="https://rubyg22.github.io/CSE445_HW4"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="https://rubyg22.github.io/CSE445_HW4 NationalParks.xsd">
 
 	<!-- Park #1: Petrified Forest = Error 2 & Error 3 -->
 	<NationalPark>
@@ -48,3 +49,5 @@
 			<Zip>86023</Zip>
 			<!-- </Address> intentionally missing -->
 		</NationalPark>
+
+</NationalParks>
