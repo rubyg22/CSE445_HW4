@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NationalParks   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="https://rubyg22.github.io/CSE445_HW4/NationalParks.xsd">
+
 	<!-- Park #1 Grand Canyon -->
 	<NationalPark Rating="5">
 		<Name>Grand Canyon National Park</Name>
@@ -32,7 +33,7 @@
 	</NationalPark>
 
 	<!-- Park #3 Saguaro -->
-	<NationalPark Rating="4.5">
+	<NationalPark>
 		<Name>Saguaro National Park</Name>
 		<Phone>520-733-5153</Phone>
 		<Address NearestAirport="Tucson International Airport">
@@ -84,7 +85,7 @@
 	</NationalPark>
 
 	<!-- Park #7 Death Valley -->
-	<NationalPark Rating="4.5">
+	<NationalPark>
 		<Name>Death Valley National Park</Name>
 		<Phone>760-786-3200</Phone>
 		<Address NearestAirport="Las Vegas McCarran International Airport">
